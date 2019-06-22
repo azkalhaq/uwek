@@ -1,6 +1,6 @@
 /*
  =========================================================
- * Blkâ€¢ Design System - v1.0.0
+ * Blk• Design System - v1.0.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/blk-design-system
@@ -104,9 +104,9 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #000000;
+  color: #525f7f;
   text-align: left;
-  background-color: var(--white);
+  background-color: #171941;
 }
 
 [tabindex="-1"]:focus {
@@ -425,7 +425,7 @@ h6,
 
 h1,
 .h1 {
-  /* font-size: 2.0625rem; */
+  font-size: 2.0625rem;
 }
 
 h2,
@@ -435,12 +435,12 @@ h2,
 
 h3,
 .h3 {
-  /* font-size: 1.4375rem; */
+  font-size: 1.4375rem;
 }
 
 h4,
 .h4 {
-  /* font-size: 1.0625rem; */
+  font-size: 1.0625rem;
 }
 
 h5,
@@ -4449,7 +4449,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  /* font-size: 0.99925rem; */
+  font-size: 0.99925rem;
   line-height: 1;
   background-color: transparent;
   border: 0.0625rem solid transparent;
@@ -4463,7 +4463,6 @@ input[type="button"].btn-block {
 
 .navbar-toggler:not(:disabled):not(.disabled) {
   cursor: pointer;
-  /* background-color: white; */
 }
 
 .navbar-toggler-icon {
@@ -13683,10 +13682,10 @@ img {
 }
 
 .navbar {
-  padding: 1rem;
+  padding: 0.9375rem;
   width: 100%;
   z-index: 1050;
-  background: #ffffff;
+  background: #e14eca;
 }
 
 .navbar .photo {
@@ -13798,13 +13797,13 @@ img {
   position: relative;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
-  color: #676767;
+  color: #ffffff;
   text-transform: capitalize;
   font-size: 1rem;
 }
 
 .navbar .navbar-brand span {
-  /* font-weight: 200; */
+  font-weight: 600;
 }
 
 .navbar .navbar-toggle button:focus,
@@ -13882,13 +13881,13 @@ img {
   }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-brand {
     font-size: 1.2495rem;
-    color: #000000;
+    color: #ffffff;
   }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-brand a {
     font-weight: 600;
   }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-close .navbar-toggler {
-    color: #000000;
+    color: #ffffff;
     font-size: 1.2495rem;
   }
   .navbar .navbar-collapse .navbar-nav li {
@@ -13920,7 +13919,7 @@ img {
   .navbar .navbar-nav a.nav-link p {
     display: inline-block;
     margin-left: 7px;
-    color: #000000;
+    color: #ffffff;
   }
   .navbar .navbar-nav .modal-search .modal-dialog {
     padding: 0 40px;
@@ -13973,7 +13972,7 @@ img {
     width: 22px;
     height: 1px;
     border-radius: 1px;
-    background: #5a5a5a;
+    background: #ffffff;
   }
   .navbar .navbar-toggler-bar.navbar-kebab {
     height: 4px;
@@ -14257,7 +14256,7 @@ img {
     left: 0;
     top: 0;
     margin: 0.7rem;
-    background: #ebebeb;
+    background: #1f2251;
     border-radius: 0.2857rem;
     padding: 1.4rem;
   }
@@ -14347,7 +14346,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 a {
@@ -14411,7 +14410,7 @@ h6,
 }
 
 p {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 5px;
 }
 
@@ -14423,7 +14422,7 @@ p.description {
   margin-top: 30px;
   margin-bottom: 25px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .title.title-up {
@@ -14451,7 +14450,7 @@ p.description {
 .card-category {
   text-transform: capitalize;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.75rem;
 }
 
@@ -14502,8 +14501,7 @@ p.description {
 
 ul li,
 ol li {
-  /* background-color: darkolivegreen; */
-  color: #000000;
+  color: #ffffff;
 }
 
 pre {
@@ -16388,8 +16386,8 @@ textarea.form-control:active {
 
 .index-page .page-header .container>.content-center.brand .h1-seo,
 .index-page .page-header .container>.content-center.brand h3 {
-  color: #000000;
-  /* font-weight: 600; */
+  color: #ffffff;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -16424,64 +16422,54 @@ textarea.form-control:active {
   animation: move-left-right 4s infinite;
   height: 300px;
   width: 300px;
-  opacity: 0.9;
+  opacity: 0.5;
   left: 3%;
   top: -21%;
-  background-image: none;
 }
 
 .index-page .squares.square2 {
   animation: move-left-right 6s infinite;
   height: 400px;
   width: 400px;
-  opacity: 0.2;
+  opacity: 0.4;
   right: -5%;
   top: -12%;
-  background-image: url(../img/floral3.png);
 }
 
 .index-page .squares.square3 {
   animation: move-left-right 5s infinite;
-  height: 400px;
-  width: 400px;
-  opacity: 0.4;
-  left: -2%;
-  bottom: -5%;
-  background-image: url(../img/floral1.png);
-  background-size: 400px 400px;
+  height: 200px;
+  width: 200px;
+  opacity: 0.1;
+  left: -5%;
+  bottom: 0%;
 }
 
 .index-page .squares.square4 {
   animation: move-left-right 10s infinite;
   height: 100px;
   width: 100px;
-  opacity: 0.3;
+  opacity: 0.9;
   right: 27%;
   top: 70%;
-  background-image: url(../img/floral2.png);
-  background-size: 100px 100px;
 }
 
 .index-page .squares.square5 {
   animation: move-left-right 6s infinite;
   height: 250px;
   width: 250px;
-  opacity: 0.9;
+  opacity: 0.1;
   left: 32%;
   bottom: 29%;
-  background-image: url(../img/floral3.png);
-  background-size: 250px 250px;
 }
 
 .index-page .squares.square6 {
   animation: move-left-right 9s infinite;
   left: 10%;
   top: 35%;
-  height: 300px;
-  width: 300px;
+  height: 80px;
+  width: 80px;
   opacity: 0.8;
-  background-image: url(../img/floral3.png);
-  background-size: 300px;
 }
 
 .index-page .squares.square7 {
@@ -16490,8 +16478,7 @@ textarea.form-control:active {
   height: 300px;
   right: -5%;
   bottom: 0%;
-  opacity: 1;
-  background-image: url('../img/floral3.png');
+  opacity: 0.1;
 }
 
 .landing-page {
@@ -17690,7 +17677,6 @@ hr.line-deafult {
 
 .page-header .content-center {
   position: absolute;
-  height: 60%;
   top: 50%;
   left: 50%;
   z-index: 2;
@@ -17699,17 +17685,13 @@ hr.line-deafult {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #ffffff;
-  padding: 90px 10px;
+  padding: 0 15px;
   width: 100%;
-  max-width: initial;
-  /* padding: 10%; */
-  background-color: #ffffff;
-  border: 5px solid #e3e3e3;
-  border-radius: 1%;
+  max-width: 880px;
 }
 
 .page-header .content-center.brand {
-  width: 90%;
+  width: 47%;
 }
 
 .page-header footer {
