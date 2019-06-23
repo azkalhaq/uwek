@@ -14422,8 +14422,8 @@ p.description {
 }
 
 .title {
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -17156,7 +17156,7 @@ textarea.form-control:active {
 .nav-pills .nav-item .nav-link {
   padding: 0 15.5px;
   text-align: center;
-  padding: 11px 23px;
+  padding: 10px 10px;
   min-width: 100px;
   font-weight: 400;
   color: var(--light);
@@ -17168,7 +17168,7 @@ textarea.form-control:active {
   height: 100%;
   margin: 0;
   max-width: 168px;
-  min-width: 80px;
+  min-width: 20px;
   /* padding: 6px 0 10px; */
   text-transform: none;
   /* opacity: .5; */
