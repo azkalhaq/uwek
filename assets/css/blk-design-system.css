@@ -1,6 +1,6 @@
 /*
  =========================================================
- * Blkâ€¢ Design System - v1.0.0
+ * BlkÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Design System - v1.0.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/blk-design-system
@@ -13683,10 +13683,11 @@ img {
 }
 
 .navbar {
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 100%;
   z-index: 1050;
   background: #ffffff;
+  box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
 }
 
 .navbar .photo {
@@ -13736,8 +13737,9 @@ img {
 }
 
 .navbar.navbar-transparent {
-  background: transparent !important;
-  padding-top: 25px;
+  /* background: transparent !important; */
+  /* padding-top: 25px; */
+  box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
 }
 
 .navbar.bg-white .navbar-nav .search-bar.input-group i {
@@ -16417,34 +16419,36 @@ textarea.form-control:active {
   position: absolute;
   transition: 0.5s ease-out;
   overflow: hidden;
-  border-radius: 20%;
+  /* border-radius: 20%; */
 }
 
 .index-page .squares.square1 {
   animation: move-left-right 4s infinite;
   height: 300px;
   width: 300px;
-  opacity: 0.9;
-  left: 3%;
-  top: -21%;
-  background-image: none;
+  opacity: 0.1;
+  left: -9%;
+  top: -5%;
+  background-image: url(../img/floral-ul-v.png);
 }
 
 .index-page .squares.square2 {
   animation: move-left-right 6s infinite;
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
   opacity: 0.2;
   right: -5%;
-  top: -12%;
-  background-image: url(../img/floral3.png);
+  top: -7%;
+  background-image: url(../img/floral-ur-v.png);
+  background-repeat: no-repeat;
+  background-size: 600px;
 }
 
 .index-page .squares.square3 {
   animation: move-left-right 5s infinite;
   height: 400px;
   width: 400px;
-  opacity: 0.4;
+  opacity: 0.5;
   left: -2%;
   bottom: -5%;
   background-image: url(../img/floral1.png);
@@ -16453,20 +16457,20 @@ textarea.form-control:active {
 
 .index-page .squares.square4 {
   animation: move-left-right 10s infinite;
-  height: 100px;
-  width: 100px;
+  height: 500px;
+  width: 500px;
   opacity: 0.3;
-  right: 27%;
-  top: 70%;
-  background-image: url(../img/floral2.png);
-  background-size: 100px 100px;
+  right: -11%;
+  top: -17%;
+  background-image: url(../img/floral-dl-v.png);
+  background-size: 500px;
 }
 
 .index-page .squares.square5 {
   animation: move-left-right 6s infinite;
   height: 250px;
   width: 250px;
-  opacity: 0.9;
+  opacity: 0.2;
   left: 32%;
   bottom: 29%;
   background-image: url(../img/floral3.png);
@@ -16486,12 +16490,13 @@ textarea.form-control:active {
 
 .index-page .squares.square7 {
   animation: move-left-right 3s infinite;
-  width: 300px;
-  height: 300px;
-  right: -5%;
+  width: 400px;
+  height: 400px;
+  right: -3%;
   bottom: 0%;
   opacity: 1;
-  background-image: url('../img/floral3.png');
+  background-image: url('../img/floral-dr-v-fit.png');
+  background-size: cover;
 }
 
 .landing-page {
@@ -17126,8 +17131,8 @@ textarea.form-control:active {
 }
 
 .nav-pills.nav-pills:not(.flex-column) .nav-item:not(:last-child) .nav-link {
-  margin-right: 10px;
-  margin-bottom: 5px;
+  /* margin-right: 10px; */
+  /* margin-bottom: 5px; */
 }
 
 .nav-pills:not(.nav-pills-icons):not(.nav-pills-just-icons) .nav-item .nav-link {
@@ -17154,8 +17159,21 @@ textarea.form-control:active {
   padding: 11px 23px;
   min-width: 100px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--light);
   background-color: #1f2251;
+  background: transparent!important;
+  border-radius: 0;
+  box-shadow: none!important;
+  font-weight: 300;
+  height: 100%;
+  margin: 0;
+  max-width: 168px;
+  min-width: 80px;
+  /* padding: 6px 0 10px; */
+  text-transform: none;
+  /* opacity: .5; */
+  width: 100%;
+  font-size: 0.8rem;
 }
 
 .nav-pills .nav-item .nav-link:hover {
@@ -17166,7 +17184,7 @@ textarea.form-control:active {
 .nav-pills .nav-item .nav-link.active:focus,
 .nav-pills .nav-item .nav-link.active:hover {
   background-color: #9A9A9A;
-  color: #ffffff;
+  color: var(--gray-dark);
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
@@ -17178,8 +17196,8 @@ textarea.form-control:active {
 
 .nav-pills .nav-item i {
   display: block;
-  font-size: 24px;
-  line-height: 60px;
+  font-size: 20px;
+  /* line-height: 60px; */
 }
 
 .nav-pills.nav-pills-neutral .nav-item .nav-link {
@@ -17374,7 +17392,7 @@ textarea.form-control:active {
 }
 
 hr {
-  width: 10%;
+  /* width: 10%; */
   height: 1px;
   border-radius: 3px;
   margin-left: 0;
@@ -17703,13 +17721,13 @@ hr.line-deafult {
   width: 100%;
   max-width: initial;
   /* padding: 10%; */
-  background-color: #ffffff;
+  background-color: #fffffff7;
   border: 5px solid #e3e3e3;
   border-radius: 1%;
 }
 
 .page-header .content-center.brand {
-  width: 90%;
+  width: 85%;
 }
 
 .page-header footer {
