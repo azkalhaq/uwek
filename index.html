@@ -3,44 +3,6 @@
 <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
 
 <head>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-
-
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-
-
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-
-
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-
-
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
@@ -118,30 +80,29 @@
     <nav class="navbar navbar-expand-lg fixed-bottom navbar-transparent" color-on-scroll="100"
         style="height: 56px; padding: 0px;">
         <div class="container">
-            <ul class="nav nav-pills nav-pills-primary nav-pills-icons content-center" style="display: contents;">
+            <ul id="bottom-menu" class="nav nav-pills nav-pills-primary nav-pills-icons content-center"
+                style="display: contents;">
                 <li class="nav-item">
-                    <a class="nav-link active show" href="javascript:void(0)" onclick="scrollToSection('home')"
-                        data-toggle="tab">
+                    <a class="nav-link active show" href="#s-home" onclick="scrollToSection('home')" data-toggle="tab">
                         <i class="fas fa-home"></i> Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="javascript:void(0)"
-                        onclick="scrollToSection('invitation')">
-                        <i class="tim-icons icon-heart-2"></i>Invitation</a>
+                    <a class="nav-link" data-toggle="tab" href="#s-invitation" onclick="scrollToSection('invitation')">
+                        <i class="fas fa-heart"></i>Invitation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="javascript:void(0)" onclick="scrollToSection('images')">
+                    <a class="nav-link" data-toggle="tab" href="#s-images" onclick="scrollToSection('images')">
                         <i class="fas fa-images"></i>Images</a>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="javascript:void(0)" onclick="scrollToSection('map')">
+                    <a class="nav-link" data-toggle="tab" href="#s-map" onclick="scrollToSection('map')">
                         <i class="fas fa-map-marker-alt"></i>Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="javascript:void(0)" onclick="scrollToSection('rsvp')">
+                    <a class="nav-link" data-toggle="tab" href="#s-rsvp" onclick="scrollToSection('rsvp')">
                         <i class="fas fa-bookmark"></i>RSVP</a>
                 </li>
             </ul>
@@ -150,7 +111,7 @@
     </nav>
     <!-- End Navbar -->
     <div class="main">
-        <dv class="section section-home">
+        <dv class="section section-home" id="s-home">
             <div class="wrapper active show" id="home">
                 <div class="page-header header-filter">
                     <div class="squares square1"></div>
@@ -166,7 +127,8 @@
                             <h1 class="h2-seo">Elly &amp; Najih</h1>
                             <h3>Sabtu, 03 Desember 2020</h3>
                             <h4>Kepada Yth <br> Bapak/Ibu/Saudara/i</h4>
-                            <a class="btn btn-icon btn-round" href="page2.html" target="_blank">
+                            <a class="btn btn-icon btn-round" href="javascript:void(0)"
+                                onclick="scrollToSection('invitation')">
                                 <i class="tim-icons icon-minimal-right"></i>
                             </a>
                         </div>
@@ -177,7 +139,7 @@
 
             </div>
         </dv>
-        <div class="section active show section-invitation" style="overflow: hidden;padding: 20px 0;" id="invitation">
+        <div class="section active show section-invitation" style="overflow: hidden;padding: 20px 0;" id="s-invitation">
             <div class="squares square2" style="top: -4%;"></div>
             <div class="container text-center">
                 <div class="content-center brand" style="height: fit-content;top: 56%;padding: 10px;">
@@ -225,10 +187,10 @@
             </div>
             <div class="squares square3"></div>
         </div>
-        <div class="section section-images">
+        <div class="section section-images" id="s-images">
 
         </div>
-        <div class="section section-map">
+        <div class="section section-map" id="s-map">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 p-0" style="margin-top: -20%;">
@@ -238,11 +200,14 @@
                     </div>
                 </div>
             </div>
-            <div class="section section-rsvp">
-                <div class="container-fluid">
-                </div>
+        </div>
+        <div class="section section-rsvp" id="s-rsvp">
+            <div class="container-fluid">
             </div>
         </div>
+        <a href="http://www.freepik.com"
+            style="color: transparent;margin-bottom: 0px;margin-top: 30px;position: fixed;">Designed by BiZkettE1 /
+            Freepik</a>
         <!--   Core JS Files   -->
         <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
         <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -284,6 +249,37 @@
                     }, 1000);
                 }
             }
+
+            // Cache selectors
+            var bottomMenu = $("#bottom-menu"),
+                bottomMenuHeight = bottomMenu.outerHeight() + 15,
+                // All list items
+                menuItems = bottomMenu.find("a"),
+                // Anchors corresponding to menu items
+                scrollItems = menuItems.map(function () {
+                    var item = $($(this).attr("href"));
+                    if (item.length) {
+                        return item;
+                    }
+                });
+
+            $(window).scroll(function () {
+                // Get container scroll position
+                var fromTop = $(this).scrollTop() + bottomMenuHeight;
+
+                // Get id of current scroll item
+                var cur = scrollItems.map(function () {
+                    if ($(this).offset().top < fromTop)
+                        return this;
+                });
+
+                // Get the id of the current element
+                cur = cur[cur.length - 1];
+                var id = cur && cur.length ? cur[0].id : "";
+                // Set/remove active class
+                menuItems.removeClass("active").end();
+                menuItems.filter("[href='#" + id + "']").addClass("active");
+            });
         </script>
 
 
