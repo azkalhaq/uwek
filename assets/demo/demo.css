@@ -428,9 +428,11 @@
 }
 
 .brand .h1-seo {
+  font-size: 1.5em;
   /* font-size: 5em; */
-  text-transform: uppercase;
-  font-weight: 300;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 .brand .n-logo {

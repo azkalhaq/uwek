@@ -1,6 +1,6 @@
 /*
  =========================================================
- * BlkÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Design System - v1.0.0
+ * BlkÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ Design System - v1.0.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/blk-design-system
@@ -1851,7 +1851,7 @@ pre code {
   padding: 0.5rem 0.7rem;
   font-size: 0.875rem;
   line-height: 1.428571;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
   background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #cad1d7;
@@ -1872,7 +1872,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
   background-color: #ffffff;
   border-color: rgba(50, 151, 211, 0.25);
   outline: 0;
@@ -14321,7 +14321,7 @@ h6,
 }
 
 p {
-  font-weight: 300;
+  font-weight: 200;
 }
 
 button,
@@ -16386,6 +16386,9 @@ textarea.form-control:active {
 
 .index-page .page-header {
   height: 100vh;
+  /* border-bottom: 1px solid #6f7d89; */
+  /* box-shadow: 0 4px 2px -2px #9f9f9f75; */
+  box-shadow: 0 4px 5px -2px #9f9f9f75;
 }
 
 .index-page .page-header .container>.content-center.brand .h1-seo,
@@ -16424,8 +16427,8 @@ textarea.form-control:active {
 
 .index-page .squares.square1 {
   animation: move-left-right 4s infinite;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   opacity: 0.1;
   left: -9%;
   top: -5%;
@@ -16442,6 +16445,7 @@ textarea.form-control:active {
   background-image: url(../img/floral-ur-v.png);
   background-repeat: no-repeat;
   background-size: 600px;
+  z-index: 0;
 }
 
 .index-page .squares.square3 {
@@ -17459,6 +17463,11 @@ hr.line-deafult {
 .section {
   padding: 70px 0;
   position: relative;
+  box-shadow: 0 4px 5px -2px #9f9f9f75;
+}
+
+.section-map {
+  padding: 10px 0px 50px;
 }
 
 .section .row+.category {
@@ -17709,7 +17718,7 @@ hr.line-deafult {
 .page-header .content-center {
   position: absolute;
   height: 60%;
-  top: 50%;
+  top: 45%;
   left: 50%;
   z-index: 2;
   -ms-transform: translate(-50%, -50%);
@@ -17717,7 +17726,7 @@ hr.line-deafult {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #ffffff;
-  padding: 90px 10px;
+  padding: 60px 10px;
   width: 100%;
   max-width: initial;
   /* padding: 10%; */
@@ -20255,7 +20264,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .card {
-  background: #1f2251;
+  background: #ffffff;
   border: 0;
   position: relative;
   width: 100%;
@@ -20264,7 +20273,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .card label {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .card .card-title {

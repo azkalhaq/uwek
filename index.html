@@ -1,94 +1,37 @@
 <html lang="en" class="perfect-scrollbar-on">
-<script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
-<script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-    <title>
-        Walimatul 'Ursy • Elly & Aji
-    </title>
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- Nucleo Icons -->
-    <link href="./assets/css/nucleo-icons.css" rel="stylesheet">
-    <!-- CSS Files -->
-    <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet">
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/demo/demo.css" rel="stylesheet">
-    <style type="text/css">
-        /* Chart.js */
-        @-webkit-keyframes chartjs-render-animation {
-            from {
-                opacity: 0.99
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        @keyframes chartjs-render-animation {
-            from {
-                opacity: 0.99
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        .chartjs-render-monitor {
-            -webkit-animation: chartjs-render-animation 0.001s;
-            animation: chartjs-render-animation 0.001s;
-        }
-    </style>
-    <style type="text/css">
-        /* Chart.js */
-        @-webkit-keyframes chartjs-render-animation {
-            from {
-                opacity: 0.99
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        @keyframes chartjs-render-animation {
-            from {
-                opacity: 0.99
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        .chartjs-render-monitor {
-            -webkit-animation: chartjs-render-animation 0.001s;
-            animation: chartjs-render-animation 0.001s;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+<title>
+    Walimatul 'Ursy • Elly &amp; Aji
+</title>
+<!--     Fonts and icons     -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<!-- Nucleo Icons -->
+<link href="./assets/css/nucleo-icons.css" rel="stylesheet">
+<!-- CSS Files -->
+<link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet">
+<!-- CSS Just for demo purpose, don't include it in your project -->
+<link href="./assets/demo/demo.css" rel="stylesheet">
 </head>
 
 <body class="index-page" style="">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-bottom navbar-transparent" color-on-scroll="100"
-        style="height: 56px; padding: 0px;">
+    <nav class="navbar navbar-expand-lg fixed-bottom" color-on-scroll="100" style="height: 56px; padding: 0px;">
         <div class="container">
             <ul id="bottom-menu" class="nav nav-pills nav-pills-primary nav-pills-icons content-center"
                 style="display: contents;">
                 <li class="nav-item">
-                    <a class="nav-link active show" href="#s-home" onclick="scrollToSection('home')" data-toggle="tab">
+                    <a class="nav-link" href="#s-home" onclick="scrollToSection('home')" data-toggle="tab">
                         <i class="fas fa-home"></i> Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#s-invitation" onclick="scrollToSection('invitation')">
+                    <a class="nav-link show" data-toggle="tab" href="#s-invitation"
+                        onclick="scrollToSection('invitation')">
                         <i class="fas fa-heart"></i>Invitation</a>
                 </li>
                 <li class="nav-item">
@@ -102,7 +45,7 @@
                         <i class="fas fa-map-marker-alt"></i>Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#s-rsvp" onclick="scrollToSection('rsvp')">
+                    <a class="nav-link active" data-toggle="tab" href="#s-rsvp" onclick="scrollToSection('rsvp')">
                         <i class="fas fa-bookmark"></i>RSVP</a>
                 </li>
             </ul>
@@ -124,42 +67,42 @@
                     <div class="container">
                         <div class="content-center brand">
                             <h1 class="h1-seo">Walimatul 'Ursy</h1>
-                            <h1 class="h2-seo">Elly &amp; Najih</h1>
-                            <h3>Sabtu, 03 Desember 2020</h3>
+                            <h1 class="h2-seo">Elly &amp; Andra</h1>
+                            <h5>Sabtu, 03 Desember 2020</h5>
                             <h4>Kepada Yth <br> Bapak/Ibu/Saudara/i</h4>
-                            <a class="btn btn-icon btn-round" href="javascript:void(0)"
+                            <h5><b id="yth">Najih Azkalhaq, S.Kom, M.M</b></h5>
+                            <a class="btn btn-icon btn-round" style="margin: 10px;" href="javascript:void(0)"
                                 onclick="scrollToSection('invitation')">
                                 <i class="tim-icons icon-minimal-right"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </dv>
-        <div class="section active show section-invitation" style="overflow: hidden;padding: 20px 0;" id="s-invitation">
+        <div class="section section-invitation" style="overflow: hidden;padding: 20px 0;" id="s-invitation">
             <div class="squares square2" style="top: -4%;"></div>
             <div class="container text-center">
-                <div class="content-center brand" style="height: fit-content;top: 56%;padding: 10px;">
+                <div class="content-center brand" style="height: fit-content;top: 56%;padding: 10px 0px;">
                     <img src="http://www.pngonly.com/wp-content/uploads/2017/05/Bismillah-PNG-Transparent.png" alt=""
-                        style="width: 250px;" class="img img-center">
+                        style="width: 150px;" class="img img-center">
                     <h3 class="title">Assalamualaikum wr wb,</h3>
                     <h4 class="description">
                         Dengan memohon ridho dan rahmat Allah SWT, kami bermaksud
-                        menyelenggarakan pernikahan putra-putri kami, serta menyelenggarakan
-                        syukuran pernikahan putra-putri kami yang Insya Allah akan dilaksanakan pada
+                        menyelenggarakan pernikahan putra-putri kami,
                     </h4>
                     <hr>
                     <h1 class="h1-seo" style="margin-bottom: 0px;">Nur Laili Chandra Yuliana</h1>
-                    <p>Putri pertama dari Bapak Junari &amp; Ibu Siti</p>
+                    <p>Putri pertama Bapak Junari &amp; Ibu Siti</p>
                     <p style="margin: 10px;">dengan</p>
-                    <h1 class="h1-seo" style="margin-bottom: 0px;">Najih Azkalhaq</h1>
-                    <p>Putra pertama dari Bapak Priyo &amp; Ibu Maemonah</p>
+                    <h1 class="h1-seo" style="margin-bottom: 0px;">Andra Yulian</h1>
+                    <p>Putra pertama Bapak Priyo &amp; Ibu Maemonah</p>
 
                     <hr>
-                    <div class="row">
+                    <div class="row" style="margin: 10px 0px;">
+                        <div class="col-12" style="margin: 10px 0px;">
+                            <p>yang Insya Allah akan dilaksanakan pada : </p>
+                        </div>
                         <div class="col-6">
                             <b style="">Akad Nikah</b>
                             <p>Sabtu, 03 Desember 2020 <br> Pukul 09.00 WIB</p>
@@ -170,40 +113,102 @@
                         </div>
                     </div>
 
-                    <b>Bertempat</b>
+                    <b style="">Bertempat</b>
                     <p>Gedung Olahraga Firby <br> Jalan abc, kecamatan Rembang, Kabupaten Rembang</p>
 
-                    <p>Tiada yang dapat kami ungkapkan selain rasa terima kasih dari hati yang tulus apabila
+                    <p style="margin: 20px 0px;">Tiada yang dapat kami ungkapkan selain rasa terima kasih dari hati yang
+                        tulus apabila
                         Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada kami.</p>
 
                     <h3 class="title">Wassalamualaikum wr wb,</h3>
                     <hr>
-
-                    <p>Kel. Bapak Junari &amp; Ibu Siti</p>
-                    <p>Kel. Bapak Priyo &amp; Ibu Maemonah</p>
-
-                    <b>Elly &amp; Najih</b>
-                </div>
-            </div>
-            <div class="squares square3"></div>
-        </div>
-        <div class="section section-images" id="s-images">
-
-        </div>
-        <div class="section section-map" id="s-map">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 p-0" style="margin-top: -20%;">
-                        <iframe width="100%" height="92%" frameborder="0" style="border:0"
-                            src="https://www.google.com/maps/embed/v1/place?q=Firbi%20Rembang&key=AIzaSyCaehMYUSm2oe2nGNok5eWHcUXedeC72Nw"
-                            allowfullscreen></iframe>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>Kel. Bapak Junari <br> &amp; Ibu Siti</p>
+                        </div>
+                        <div class="col-6">
+                            <p>Kel. Bapak Priyo <br> &amp; Ibu Maemonah</p>
+                        </div>
+                        <div class="col-12">
+                            <b>Elly &amp; Andra</b>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="squares square3" style="opacity: 0.3;z-index: 1;"></div>
         </div>
-        <div class="section section-rsvp" id="s-rsvp">
+        <div class="section section-images" id="s-images" style="
+            height: 100vh;
+        ">
+            <div class="squares square1" style="opacity: 0.3;z-index: -2;margin-top: 10px;"></div>
             <div class="container-fluid">
+                <div class="row">
+                    
+                </div>
             </div>
+        </div>
+        <div class="section section-map active show" id="s-map" style="height: 100vh;overflow: hidden;">
+            <div class="squares square6" style="opacity: 0.3;z-index: -2;margin-top: -250px;"></div>
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="title">Peta Lokasi</h3>
+                    </div>
+                    <div class="col-12 p-0">
+                        <!-- <iframe width="100%" height="92%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Firbi%20Rembang&amp;key=AIzaSyCaehMYUSm2oe2nGNok5eWHcUXedeC72Nw" allowfullscreen></iframe> -->
+                            <iframe width="100%" height="92%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=FiRBY%20JW%20Hall%2C%20Mondoteko%2C%20Kabupaten%20Rembang%2C%20Jawa%20Tengah%2C%20Indonesia&key=AIzaSyCaehMYUSm2oe2nGNok5eWHcUXedeC72Nw" allowfullscreen></iframe>
+                    </div>
+                    <div style="position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;top: 80%;">
+                        <a href="https://www.google.co.id/maps/dir//FiRBY+JW+Hall,+Mondoteko,+Rembang+Sub-District,+Rembang+Regency,+Central+Java+59219/@-6.7245937,111.3420132,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x2e77245a79da891b:0x5e1ac35373e55a97!2m2!1d111.3442019!2d-6.7245937!3e0" class="btn btn-success">Petunjuk Arah</a>
+                    </div>
+                </div>
+            </div>
+            <div class="squares square6" style="opacity: 0.3;z-index: -2;margin-top: 300px;"></div>
+        </div>
+        <div class="section section-rsvp" id="s-rsvp" style="height: 100vh;overflow: hidden;">
+            <div class="squares square6" style="opacity: 0.3;z-index: -2;margin-top: -340px;"></div>
+            <div class="container">
+                <h1>RSVP</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <form id="rsvp-form">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <label>Nama</label>
+                                        <input required="" type="text" name="nama" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="email" name="email" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <label>Jumlah</label>
+                                        <input required="" type="number" name="jumlah" class="form-control" min="0"
+                                            max="10" placeholder="Jumlah Akan Datang">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Pesan</label>
+                                        <input type="text" name="pesan" class="form-control"
+                                            placeholder="Pesan / Doa untuk kedua mempelai.">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" id="submit-form"
+                                class="btn btn-primary btn-round float-right">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="squares square7" style="opacity: 0.3;z-index: -2;"></div>
         </div>
         <a href="http://www.freepik.com"
             style="color: transparent;margin-bottom: 0px;margin-top: 30px;position: fixed;">Designed by BiZkettE1 /
@@ -217,8 +222,6 @@
         <script src="./assets/js/plugins/bootstrap-switch.js"></script>
         <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
         <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-        <!-- Chart JS -->
-        <script src="./assets/js/plugins/chartjs.min.js"></script>
         <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
         <script src="./assets/js/plugins/moment.min.js"></script>
         <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
@@ -227,9 +230,35 @@
         <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
         <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
         <script>
+            var urlParams = new URLSearchParams(window.location.search);
+
+            console.log(urlParams.has('to'));
+
+            if (urlParams.has('to')) {
+                to = urlParams.get('to');
+                $('#yth').html(to);
+                $('input[name="nama"]').val(to);
+            }
+
             $(document).ready(function () {
                 blackKit.initDatePicker();
                 blackKit.initSliders();
+                $('#submit-form').on('click', function (e) {
+                    var $myForm = $("#submit-form");
+                    console.log($myForm[0].checkValidity());
+                    console.log($myForm[0].reportValidity());
+                    $.ajax({
+                        url: 'https://script.google.com/macros/s/AKfycbz1ukM2vwtwj5yx3fByd1Lx-IiivztAr_ni8PKmF5oTx9q2lFA/exec',
+                        method: "GET",
+                        dataType: "json",
+                        data: $('form#rsvp-form').serialize(),
+                        success: function (data) {
+
+                            console.log(data.nama);
+                        }
+                    });
+                    e.preventDefault();
+                })
             });
 
             function scrollToDownload() {
@@ -281,6 +310,15 @@
                 menuItems.filter("[href='#" + id + "']").addClass("active");
             });
         </script>
+
+
+
+
+    </div>
+
+
+
+
 
 
 </body>
