@@ -9,6 +9,8 @@
 </title>
 <!--     Fonts and icons     -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cookie|Courgette|Great+Vibes|Parisienne&display=swap"
+    rel="stylesheet">
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 <!-- Nucleo Icons -->
 <link href="./assets/css/nucleo-icons.css" rel="stylesheet">
@@ -16,6 +18,9 @@
 <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet">
 <!-- CSS Just for demo purpose, don't include it in your project -->
 <link href="./assets/demo/demo.css" rel="stylesheet">
+
+<!-- AddEvent script -->
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
 
 <body class="index-page" style="">
@@ -36,7 +41,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#s-images" onclick="scrollToSection('images')">
-                        <i class="fas fa-images"></i>Images</a>
+                        <i class="far fa-clock"></i>Moments</a>
                 </li>
 
 
@@ -67,12 +72,18 @@
                     <div class="container">
                         <div class="content-center brand">
                             <h1 class="h1-seo">Walimatul 'Ursy</h1>
-                            <h1 class="h2-seo">Elly &amp; Aji</h1>
+                            <h1 class="h2-seo" style="
+                                font-family: 'Courgette', cursive;
+                                /* font-family: 'Great Vibes', cursive; */
+                                /* font-family: 'Cookie', cursive; */
+                                /* font-family: 'Parisienne', cursive; */
+                                font-size: 60px;
+                            ">Elly &amp; Aji</h1>
                             <h5>Sabtu, 03 Desember 2020</h5>
                             <h4>Kepada Yth <br> Bapak/Ibu/Saudara/i</h4>
                             <h5><b id="yth"></b></h5>
-                            <a class="btn btn-icon btn-round" style="margin: 10px;" href="javascript:void(0)"
-                                onclick="scrollToSection('invitation')">
+                            <a class="btn btn-icon btn-round btn-success" style="margin: 10px;"
+                                href="javascript:void(0)" onclick="scrollToSection('invitation')">
                                 <i class="tim-icons icon-minimal-down"></i>
                             </a>
                         </div>
@@ -80,70 +91,132 @@
                 </div>
             </div>
         </dv>
-        <div class="section section-invitation" style="overflow: hidden;padding: 20px 0;" id="s-invitation">
+        <div class="section section-invitation" style="overflow: hidden;padding: 10px 0;box-shadow: none;"
+            id="s-invitation">
             <div class="squares square2" style="top: -4%;"></div>
             <div class="container text-center">
                 <div class="content-center brand" style="height: fit-content;top: 56%;padding: 10px 0px;">
                     <img src="http://www.pngonly.com/wp-content/uploads/2017/05/Bismillah-PNG-Transparent.png" alt=""
                         style="width: 150px;" class="img img-center">
+                    <p style="margin: 20px 0px;">Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
+                        isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan
+                        dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar
+                        terdapat tanda-tanda bagi kaum yang berfikir. <b>QS. Ar - Rum : 21</b></p>
                     <h3 class="title">Assalamualaikum wr wb,</h3>
                     <h4 class="description">
                         Dengan memohon ridho dan rahmat Allah SWT, kami bermaksud
                         menyelenggarakan pernikahan putra-putri kami,
                     </h4>
                     <hr>
-                    <h1 class="h1-seo" style="margin-bottom: 0px;">Nur Laili Chandra Yuliana</h1>
-                    <p>Putri pertama Bapak Junari &amp; Ibu Siti</p>
-                    <p style="margin: 10px;">dengan</p>
-                    <h1 class="h1-seo" style="margin-bottom: 0px;">Najih Azkalhaq</h1>
-                    <p>Putra pertama Bapak Priyo &amp; Ibu Maemonah</p>
-
-                    <hr>
-                    <div class="row" style="margin: 10px 0px;">
-                        <div class="col-12" style="margin: 10px 0px;">
-                            <p>yang Insya Allah akan dilaksanakan pada : </p>
+                    <div class="row">
+                        <div class="col couple-grid text-center">
+                            <img style="max-height: 200px;" src="assets/img/mike.jpg"
+                                class="img-fluid rounded-circle shadow-lg">
+                            <br><br>
+                            <h1 class="h1-seo" style="margin-bottom: 0px;">Nur Laili <br> Chandra Yuliana</h1>
+                            <p>Putri pertama <br> Bapak Junari &amp; Ibu Siti Sofiah</p>
                         </div>
-                        <div class="col-6">
-                            <b style="">Akad Nikah</b>
-                            <p>Sabtu, 03 Desember 2020 <br> Pukul 09.00 WIB</p>
-                        </div>
-                        <div class="col-6">
-                            <b style="">Resepsi</b>
-                            <p>Sabtu, 03 Desember 2020 <br> Pukul 11.00 WIB</p>
+                        <div class="col couple-grid text-center">
+                            <img style="max-height: 200px;" src="assets/img/ryan.jpg"
+                                class="img-fluid rounded-circle shadow-lg">
+                            <br><br>
+                            <h1 class="h1-seo" style="margin-bottom: 0px;">Najih <br> Azkalhaq</h1>
+                            <p>Putra pertama <br> Bapak Priyo &amp; Ibu Maemonah</p>
                         </div>
                     </div>
 
-                    <b style="">Bertempat</b>
-                    <p>Gedung Olahraga Firby <br> Jalan abc, kecamatan Rembang, Kabupaten Rembang</p>
-
+                    <hr>
                     <p style="margin: 20px 0px;">Tiada yang dapat kami ungkapkan selain rasa terima kasih dari hati yang
                         tulus apabila
                         Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu kepada kami.</p>
-
-                    <h3 class="title">Wassalamualaikum wr wb,</h3>
-                    <hr>
-                    <div class="row">
-                        <div class="col-6">
-                            <p>Kel. Bapak Junari <br> &amp; Ibu Siti</p>
+                </div>
+            </div>
+            <div class="squares square3" style="opacity: 0.3;z-index: 1;bottom: -2.5%;"></div>
+        </div>
+        <div class="section section-images" id="s-images" style="height: 100vh;">
+            <div class="squares square1" style="opacity: 0.3;z-index: -2;margin-top: 6px;"></div>
+            <div class="container-fluid text-center">
+                <div class="row" style="margin: 10px 0px;">
+                    <div class="col-12" style="margin: 10px 0px;">
+                        <p>Insya Allah akan dilaksanakan pada : </p>
+                    </div>
+                    <div class="col-6">
+                        <b style="">Akad Nikah</b>
+                        <p>Sabtu, 03 Desember 2020 <br> Pukul 09.00 WIB</p>
+                        <!-- Button code -->
+                        <div title="Add to Calendar" class="addeventatc">
+                            Add to Calendar
+                            <span class="start">07/10/2019 08:00 AM</span>
+                            <span class="end">07/10/2019 10:00 AM</span>
+                            <span class="timezone">America/Los_Angeles</span>
+                            <span class="title">Summary of the event</span>
+                            <span class="description">Description of the event</span>
+                            <span class="location">Location of the event</span>
+                            <span class="alarm_reminder">60</span>
                         </div>
-                        <div class="col-6">
-                            <p>Kel. Bapak Priyo <br> &amp; Ibu Maemonah</p>
-                        </div>
-                        <div class="col-12">
-                            <b>Elly &amp; Aji</b>
+                    </div>
+                    <div class="col-6">
+                        <b style="">Resepsi</b>
+                        <p>Sabtu, 03 Desember 2020 <br> Pukul 11.00 WIB</p>
+                        <!-- Button code -->
+                        <div title="Add to Calendar" class="addeventatc">
+                            Add to Calendar
+                            <span class="start">07/10/2019 08:00 AM</span>
+                            <span class="end">07/10/2019 10:00 AM</span>
+                            <span class="timezone">America/Los_Angeles</span>
+                            <span class="title">Summary of the event</span>
+                            <span class="description">Description of the event</span>
+                            <span class="location">Location of the event</span>
+                            <span class="alarm_reminder">60</span>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="squares square3" style="opacity: 0.3;z-index: 1;"></div>
-        </div>
-        <div class="section section-images" id="s-images" style="
-            height: 100vh;
-        ">
-            <div class="squares square1" style="opacity: 0.3;z-index: -2;margin-top: 10px;"></div>
-            <div class="container-fluid">
-                <div class="row">
 
+                <div id="clockdiv" style="margin-bottom: 0px; margin-top: 20px;">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Hari</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Jam</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Menit</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Detik</div>
+                    </div>
+                </div>
+                <h3>Hingga waktu acara</h3>
+
+                <b style="margin-top: 20px;">Bertempat</b>
+                <p>Gedung Olahraga Firby <br> Jalan abc, kecamatan Rembang, Kabupaten Rembang</p>
+
+                <a class="btn btn-icon btn-round btn-success" style="margin: 10px;" href="javascript:void(0)"
+                    onclick="scrollToSection('map')">
+                    <i class="tim-icons icon-minimal-down"></i>
+                </a>
+
+                <h3 class="title">Wassalamualaikum wr wb,</h3>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-6">
+                        <p>Kel. Bapak Junari <br> &amp; Ibu Siti</p>
+                    </div>
+                    <div class="col-6">
+                        <p>Kel. Bapak Priyo <br> &amp; Ibu Maemonah</p>
+                    </div>
+                    <div class="col-12" style="margin-top: 30px;">
+                        <h3 class="h2-seo" style="
+                                font-family: 'Courgette', cursive;
+                                /* font-family: 'Great Vibes', cursive; */
+                                /* font-family: 'Cookie', cursive; */
+                                /* font-family: 'Parisienne', cursive; */
+                                font-size: 30px;
+                            ">Elly &amp; Aji</h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,7 +244,8 @@
             <div class="squares square6" style="opacity: 0.3;z-index: -2;margin-top: -340px;"></div>
             <div class="container">
                 <h1 class="text-center" style="margin-bottom: 10px;">RSVP</h1>
-                <h4 class="text-center">Besar harapan kami atas kehadiran Bapak/Ibu/Saudara/i, dimohon untuk dapat mengkonfirmasi kehadiran.</h4>
+                <h4 class="text-center">Besar harapan kami atas kehadiran Bapak/Ibu/Saudara/i, dimohon untuk dapat
+                    mengkonfirmasi kehadiran.</h4>
                 <div class="card">
                     <div class="card-body">
                         <form id="rsvp-form" onsubmit="return submitRsvp(event)">
@@ -206,23 +280,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" id="submit-form" class="btn btn-success btn-round float-right">Kirim</button>
+                            <button type="submit" id="submit-form"
+                                class="btn btn-success btn-round float-right">Kirim</button>
                             <div id="alert-success" class="alert alert-info alert-with-icon" style="display: none">
-                              <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
-                                <i class="fas fa-times"></i>
-                              </button>
-                              <span data-notify="icon" class="fas fa-heart"></span>
-                              <span><b> Terima kasih !</b></span>
+                                <button type="button" aria-hidden="true" class="close" data-dismiss="alert"
+                                    aria-label="Close">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <span data-notify="icon" class="fas fa-heart"></span>
+                                <span><b> Terima kasih !</b></span>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="text-center">
-                <audio controls autoplay>
-                  <source src="audio/smile-for-me.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-                <p class="text-center"><b>Elly & Aji</b> <br> Template by <b>Creative Tim</b> | Asset by <b>Freepik</b> | Music by Music | Host by <b>Github</b></p>
+                    <audio controls autoplay>
+                        <source src="audio/smile-for-me.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <p class="text-center" style="margin-top: 20px;margin-bottom: 40px;">Created By<b>Elly & Aji</b> <br>
+                    Template by <b>Creative Tim</b> | Asset by <b>Freepik</b> | Music by <b>Yuki Kajiura</b> | Host by
+                    <b>Github</b></p>
             </div>
             <div class="squares square7" style="opacity: 0.3;z-index: -2;"></div>
         </div>
@@ -328,6 +406,48 @@
                 menuItems.removeClass("active").end();
                 menuItems.filter("[href='#" + id + "']").addClass("active");
             });
+
+            function getTimeRemaining(endtime) {
+                var t = Date.parse(endtime) - Date.parse(new Date());
+                var seconds = Math.floor((t / 1000) % 60);
+                var minutes = Math.floor((t / 1000 / 60) % 60);
+                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                return {
+                    'total': t,
+                    'days': days,
+                    'hours': hours,
+                    'minutes': minutes,
+                    'seconds': seconds
+                };
+            }
+
+            function initializeClock(id, endtime) {
+                var clock = document.getElementById(id);
+                var daysSpan = clock.querySelector('.days');
+                var hoursSpan = clock.querySelector('.hours');
+                var minutesSpan = clock.querySelector('.minutes');
+                var secondsSpan = clock.querySelector('.seconds');
+
+                function updateClock() {
+                    var t = getTimeRemaining(endtime);
+
+                    daysSpan.innerHTML = t.days;
+                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                    if (t.total <= 0) {
+                        clearInterval(timeinterval);
+                    }
+                }
+
+                updateClock();
+                var timeinterval = setInterval(updateClock, 1000);
+            }
+
+            var deadline = new Date("Jan 5, 2020 15:37:25");
+            initializeClock('clockdiv', deadline);
         </script>
 
 

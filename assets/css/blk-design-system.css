@@ -14418,7 +14418,7 @@ h6,
 }
 
 p {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 0, 0);
   margin-bottom: 5px;
 }
 
@@ -17467,7 +17467,7 @@ hr.line-deafult {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 20px 0;
   position: relative;
   box-shadow: 0 4px 5px -2px #9f9f9f75;
 }
@@ -18052,7 +18052,7 @@ hr.line-deafult {
 }
 
 .section-images {
-  max-height: 670px;
+  /* max-height: 670px; */
   height: 670px;
 }
 
