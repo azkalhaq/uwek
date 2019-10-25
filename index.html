@@ -134,7 +134,7 @@
             </div>
             <div class="squares square3" style="opacity: 0.3;z-index: 1;bottom: -2.5%;"></div>
         </div>
-        <div class="section section-images" id="s-images" style="height: 100vh; padding-top: 0px; padding-bottom: 30px;">
+        <div class="section section-images" id="s-images" style="min-height: 100vh; height: auto; padding-top: 0px; padding-bottom: 30px;">
             <div class="squares square1" style="opacity: 0.3;z-index: -2;margin-top: 6px;"></div>
             <div class="container-fluid text-center">
                 <div class="row" style="margin: 10px 0px;">
@@ -235,10 +235,10 @@
                 </div>
             </div>
         </div>
-        <div class="section section-map active show" id="s-map" style="height: 100vh;overflow: hidden;">
+        <div class="section section-map active show pb-0" id="s-map" style="min-height: 100vh;overflow: hidden; box-shadow: none;">
             <div class="squares square6" style="opacity: 0.3;z-index: -2;margin-top: -250px;"></div>
             <div class="container-fluid text-center">
-                <div class="row" id="petaResepsi">
+                <div class="row" id="petaResepsi" style="height: -webkit-calc(100% - 60px);height:-moz-calc(100% - 60px);height:calc(100% - 60px);">
                     <div class="col-6">
                         <h3 class="title">Resepsi</h3>
                     </div>
@@ -255,7 +255,7 @@
                             class="btn btn-success">Petunjuk Arah</a>
                     </div>
                 </div>
-                <div class="row" id="petaNgunduhMantu" style="display: none">
+                <div class="row" id="petaNgunduhMantu" style="height: -webkit-calc(100% - 60px);height:-moz-calc(100% - 60px);height:calc(100% - 60px); display: none">
                     <div class="col-6">
                         <h3 class="title" style="font-weight: 300" onclick="toggleMap()">Resepsi</h3>
                     </div>
